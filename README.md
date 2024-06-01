@@ -1,6 +1,4 @@
-# LabAP1-UAS-NoName
-##
-## Judul Program: Dompet Digital
+# Judul Program: Dompet Digital
 ##
 ## Nama Anggota Kelompok:
 1. Andre (231401040)
