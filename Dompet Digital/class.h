@@ -105,39 +105,43 @@ class Dompet {
         }
 
         void tambahPendapatan() {
-            Transaksi pendapatan_sementara;
+            Transaksi* pendapatan_sementara = new Transaksi;
 
             cout << "Jumlah Pendapatan: Rp ";
-            cin >> pendapatan_sementara.jumlah;
+            cin >> (*pendapatan_sementara).jumlah;
             cout << "Tanggal Pendapatan (dd-mm-yyyy): ";
-            cin >> pendapatan_sementara.tanggal;
+            cin >> (*pendapatan_sementara).tanggal;
             cout << "Kategori Pendapatan: ";
             cin.ignore();
-            getline(cin, pendapatan_sementara.kategori);
+            getline(cin, (*pendapatan_sementara).kategori);
             cout << "Deskripsi Pendapatan: ";
-            getline(cin, pendapatan_sementara.deskripsi);
+            getline(cin, (*pendapatan_sementara).deskripsi);
 
-            saldo += pendapatan_sementara.jumlah;
+            saldo += (*pendapatan_sementara).jumlah;
 
-            pendapatan.insert(pendapatan.begin(), pendapatan_sementara);
+            pendapatan.insert(pendapatan.begin(), (*pendapatan_sementara));
+            
+            delete pendapatan_sementara;
         }
 
         void tambahPengeluaran() {
-            Transaksi pengeluaran_sementara;
+            Transaksi* pengeluaran_sementara = new Transaksi;
 
             cout << "Jumlah Pengeluaran: Rp ";
-            cin >> pengeluaran_sementara.jumlah;
+            cin >> (*pengeluaran_sementara).jumlah;
             cout << "Tanggal Pengeluaran (dd-mm-yyyy): ";
-            cin >> pengeluaran_sementara.tanggal;
+            cin >> (*pengeluaran_sementara).tanggal;
             cout << "Kategori Pengeluaran: ";
             cin.ignore();
-            getline(cin, pengeluaran_sementara.kategori);
+            getline(cin, (*pengeluaran_sementara).kategori);
             cout << "Deskripsi Pengeluaran: ";
-            getline(cin, pengeluaran_sementara.deskripsi);
+            getline(cin, (*pengeluaran_sementara).deskripsi);
 
-            saldo -= pengeluaran_sementara.jumlah;
+            saldo -= (*pengeluaran_sementara).jumlah;
 
-            pengeluaran.insert(pengeluaran.begin(), pengeluaran_sementara);
+            pengeluaran.insert(pengeluaran.begin(), (*pengeluaran_sementara));
+
+            delete pengeluaran_sementara;
         }
 
 
