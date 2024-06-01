@@ -19,7 +19,7 @@ Di fitur ini, user bisa memperbarui data yang sudah ada dengan memasukkan jumlah
 Di fitur mencari data ini, user bisa mencari riwayat pendapatan atau pengeluaran berdasarkan tanggal dan kategorinya.
 6. Menyimpan Data
 Di fitur ini, user akan menyimpan secara permanen semua data sementaranya ke file saldo.txt (menyimpan saldo), pendapatan.txt (menyimpan data pendapatan), dan pengeluaran.txt (menyimpan data pengeluaran).
-##
+
 ## Hasil Program
 ### 1. Tampilan Awal
 
@@ -42,11 +42,40 @@ Di fitur ini, user akan menyimpan secara permanen semua data sementaranya ke fil
 
 ### 5. Tampilan Fitur Update Data
 
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/94324af7-8cf1-4856-a77e-7a7a5926ec59)
+
+Misalkan kita mengambil data yang sudah disimpan seperti diatas dari saldo.txt, pendapatan.txt, dan pengeluaran.txt kemudian ingin mengubah salah satu datanya, maka kita bisa menggunakan fitur update data. Misalkan kita ingin mengubah data pengeluaran yang pertama menjadi jumlah (5000.50), tanggal (27-05-2024), kategori (Beli Jajan), dan deskripsi (Sosis Goreng). Berikut adalah caranya
+
+**1. Pilih Menu 4 untuk Update Data**
+
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/e8bb74e9-cb45-43be-9020-8f2d2e018aff)
+
+**2. Masukkan Jenis Data yang ingin diubah (pendapatan atau pengeluaran)**
+
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/c577f88f-bb54-4033-8686-40ffbc461f93)
+
+**3. Masukkan Data Lama yang Ingin Diubah (jumlah, tanggal, kategori, dan deskripsi)**
+
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/148abf31-074b-4064-ba66-56041129ecf3)
+
+**4. Masukkan Data Baru (jumlah, tanggal, kategori, dan deskripsi)**
+
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/6b74877b-cd31-4bf4-9a00-5bec7d64ad57)
+
+**Hasil**
+
+
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/31aefacc-8575-4b69-b340-a2d31a3c097e)
 
 
 ### 6. Tampilan Fitur Cari Data
 
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/f15a3e21-93cf-42c2-8bdb-8155374a353b)
 
+
+![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/d0308689-bd9a-4618-838a-47d354e1336d)
+
+**Note:** Jika bulan, tahun, dan kategori diisi dengan (-), maka data pendapatan atau pengeluaran akan ditampilkan seluruhnya. Jika bulan dan tahun diisi(-), maka akan ditampilkan data pendapatan atau pengeluaran berdasarkan kategorinya. Jika kategori diisi(-), maka akan ditampilkan data pendapatan atau pengeluaran berdasarkan bulan dan tahun transaksinya. 
 
 ### 7. Tampilan Fitur Simpan Data
 
