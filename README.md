@@ -96,4 +96,5 @@ Setelah user menyimpan data, maka file saldo.txt, pendapatan.txt, dan pengeluara
 ![image](https://github.com/Andre-231401040/LabAP1-UAS-NoName/assets/147403392/fb42da00-20a8-481d-89ea-a248ae75440d)
 
 
-## Link Video Presentasi ()
+## Link Video Presentasi
+https://drive.google.com/drive/folders/1h-QTs5S2NOIk4_cTMIjTSgzfT9BVltzT?usp=sharing
